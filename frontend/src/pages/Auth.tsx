@@ -17,15 +17,6 @@ import { signup as createProfileInBackend } from "@/lib/api"; // Importing our b
 
 // --- FIREBASE CONFIGURATION ---
 // This should be the same config from your original index.js
-const firebaseConfig = {
-  apiKey: "AIzaSyBxfomUQJ4KchZZp6r1fvWXX9VVGleB7nw",
-  authDomain: "kalasetu-23d1a.firebaseapp.com",
-  projectId: "kalasetu-23d1a",
-  storageBucket: "kalasetu-23d1a.firebasestorage.app",
-  messagingSenderId: "910306415360",
-  appId: "1:910306415360:web:d7fb45ec830d8b22c6d9e5",
-  measurementId: "G-H3X513VJNL"
-};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
