@@ -61,9 +61,16 @@ This project requires specific API keys and credentials to function (CohereAPI, 
 
 Navigate to the backend directory and install dependencies.
 
-Bash
+```Bash
+cd backend  
+# Create virtual environment (Optional but recommended)  
+python -m venv venv  
+# Windows: venv\Scripts\activate  
+# Mac/Linux: source venv/bin/activate 
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cd backend  # Create virtual environment (Optional but recommended)  python -m venv venv  # Windows: venv\Scripts\activate  # Mac/Linux: source venv/bin/activate  # Install requirements  pip install -r requirements.txt   `
+# Install requirements  
+pip install -r requirements.txt
+```
 
 ### 2\. Frontend Setup
 
