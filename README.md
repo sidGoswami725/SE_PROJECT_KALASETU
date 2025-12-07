@@ -86,8 +86,7 @@ npm install
 
 ### Start the Backend Server
 
-```
-Bash
+```Bash
 cd backend
 python app.py
 ```
