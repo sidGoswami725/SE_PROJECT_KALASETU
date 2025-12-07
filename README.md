@@ -63,7 +63,15 @@ Navigate to the backend directory and install dependencies.
 
 Bash
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cd backend  # Create virtual environment (Optional but recommended)  python -m venv venv  # Windows: venv\Scripts\activate  # Mac/Linux: source venv/bin/activate  # Install requirements  pip install -r requirements.txt   `
+`   
+cd backend  
+# Create virtual environment (Optional but recommended)  
+python -m venv venv  
+# Windows: venv\Scripts\activate  
+# Mac/Linux: source venv/bin/activate  
+
+# Install requirements  
+pip install -r requirements.txt   `
 
 ### 2\. Frontend Setup
 
