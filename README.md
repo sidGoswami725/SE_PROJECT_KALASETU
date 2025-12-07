@@ -48,15 +48,15 @@ KalaSetu: Empowering Artisans, Enabling Green Fashion
 
 ### 🔑 Configuration (Important)
 
-This project requires specific API keys and credentials to function (CohereAPI, HuggingFace & Firebase). Per course instructions, these sensitive files have been **sent via email** to the Teaching Assistants. There are 2 .env files: one in the main/backend and the other in main/frontend. We have given dummy .env files in this repo, please replace the contents of the respective env files with the contents sent in the mail. Please add the firebase-account-key.json to main/backend.
+This project requires specific API keys and credentials to function (CohereAPI, HuggingFace & Firebase). Per course instructions, these sensitive files have been **sent via email** to the Teaching Assistants. There are 2 .env files: one in the main/backend and the other in main/frontend. We have given dummy .env files in this repo, please replace them with the .env files sent in the mail. Please add the firebase-account-key.json to main/backend.
 
 **Action Required:**
 
-1.  Locate the **.env** file contents and **firebase-account-key.json** file attached to our submission email.
+1.  Locate the **.env** files and **firebase-account-key.json** file attached to our submission email.
     
 2.  Place the json directly into the backend/ directory of this project.
 
-3.  Replace the contents of the .env files with the ones provided in the mail.
+3.  Replace the dummy .env files with the ones provided in the mail.
     
 
 ### 1\. Backend Setup
