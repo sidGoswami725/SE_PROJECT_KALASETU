@@ -76,8 +76,7 @@ pip install -r requirements.txt
 
 Navigate to the frontend directory and install Node modules.
 
-```
-Bash
+```Bash
 cd frontend  
 npm install
 ```
@@ -97,8 +96,7 @@ _The server will start on http://127.0.0.1:5000_
 
 ### Start the Frontend Application
 
-```
-Bash
+```Bash
 cd frontend
 npm run dev
 ```
@@ -114,8 +112,7 @@ We have implemented automated integration tests for the backend logic to ensure 
 
 **Command:**
 
-```
-Bash
+```Bash
 cd backend
 pytest -s test_app.py
 ```
